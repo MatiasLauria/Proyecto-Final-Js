@@ -19,26 +19,63 @@
 </head>
 
 <body>
-<header>
-    <div class="container">
-        <nav class="navbar">
-            <a href="index.html" class="navbar-brand">FROZENSHOP</a>
-            <button type="button" class="navbar-toggler">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="navbar-collapse">
-                <ul>
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="#">PRODUCTOS</a></li>
-                    <li><a href="#">NUEVOS INGRESOS</a></li>
-                    <li><a href="#">ACERCA DE NOSOTROS</a></li>
-                    <li><a href="#">CONTACTO</a></li>
-                
-                </ul>
-            </div>
-        </nav>
-    </div>
-</header>
+    <header>
+        <div class="container">
+
+            <!-- navbar -->
+
+            <nav class="navbar">
+                <a href="index.html" class="navbar-brand">FROZENSHOP</a>
+                <button type="button" class="navbar-toggler">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="navbar-collapse">
+                    <ul>
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">PRODUCTOS</a></li>
+                        <li><a href="#">NUEVOS INGRESOS</a></li>
+                        <li><a href="#">ACERCA DE NOSOTROS</a></li>
+                        <li><a href="#">CONTACTO</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="cart">
+                    <button type="button" id="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cart-count-info">0</span>
+                    </button>
+
+                    <div class="cart-container">
+                        <div class="cart-list">
+                            <!-- objeto unico -->
+                            <div class="cart-item">
+                                <img src="images/frutasyverduras.jpg" alt="frutasYverduras">
+                                <div class="cart-item-info">
+                                    <h3 class="cart-item-name">FrozenShop</h3>
+                                    <span class="cart-item-category">Frutas y Verduras Congeladas</span>
+                                    <span class="cart-item-price">$1200.00</span>
+                                </div>
+
+                                <button type="button" class="cart-item-del-btn">
+                                    <i class="fas fa-times"></i>
+                                </button>
+
+                            </div>
+                            <!-- fin de objeto unico -->
+                        </div>
+
+                        <div class="cart-total">
+                            <h3> Total: $</h3>
+                            <span id="cart-total-value">$1200.00</span>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+            <!-- fin-navbar -->
+        </div>
+    </header>
 
 
     <!-- JS -->
