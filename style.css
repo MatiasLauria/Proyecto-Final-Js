@@ -90,6 +90,7 @@ header .container{
     width: 100%;
     height:0;
     overflow: hidden;
+    transition: all 0.7s;
     
 }
 
@@ -223,4 +224,56 @@ header .container{
 #cart-total-value{
     font-size: 1.3rem;
     font-weight: 500;
+}
+
+/* banner */
+
+.banner{
+    flex: 1;
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.banner > div{
+    margin: 3rem 0;
+}
+
+.banner .text {
+    font-weight: 500;
+    font-size: 1.15rem;
+    opacity: 0.45;
+}
+
+.btns{
+    margin: 1.5rem 0;
+}
+
+.btn{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid purple;
+    background: purple;
+    color: white;
+    padding: 0.95rem 0;
+    letter-spacing: 2px;
+    display: block;
+    width: 180px;
+    margin: 0.6rem auto;
+    transition: 0.5s;
+}
+
+.btns .btn:last-child{
+    color: purple;
+    background: transparent;
+}
+
+.btns .btn:first-child:hover{
+    background: transparent;
+    color: purple;
+}
+
+.btns .btn:last-child:hover{
+    background: purple;
+    color:white;
 }
