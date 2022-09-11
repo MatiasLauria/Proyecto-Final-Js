@@ -1,0 +1,238 @@
+[
+    {
+        "name" : "arandanos",
+        "category" : "frutas",
+        "price": "1340",
+        "imgSrc": "images/arandanos.jpg"
+    },
+    {
+        "name" : "durazno",
+        "category" : "frutas",
+        "price": "1000",
+        "imgSrc": "images/durazno-cubeteado.jpg"
+    },
+    {
+        "name" : "frambuesas",
+        "category" : "frutas",
+        "price": "1440",
+        "imgSrc": "images/frambuesas.jpg"
+    },
+    {
+        "name" : "frutillas",
+        "category" : "frutas",
+        "price": "1140",
+        "imgSrc": "images/frutillas.jpg"
+    },
+    {
+        "name" : "frutos rojos",
+        "category" : "frutas",
+        "price": "1600",
+        "imgSrc": "images/frutos-rojos.jpg"
+    },
+    {
+        "name" : "granada",
+        "category" : "frutas",
+        "price": "900",
+        "imgSrc": "images/granada.jpg"
+    },
+    {
+        "name" : "kiwi",
+        "category" : "frutas",
+        "price": "950",
+        "imgSrc": "images/kiwi.jpg"
+    },
+    {
+        "name" : "mango",
+        "category" : "frutas",
+        "price": "1150",
+        "imgSrc": "images/mango-cubeteado.jpg"
+    },
+    {
+        "name" : "mora",
+        "category" : "frutas",
+        "price": "1050",
+        "imgSrc": "images/moras.jpg"
+    },
+    {
+        "name" : "pulpa de guayaba",
+        "category" : "frutas",
+        "price": "1500",
+        "imgSrc": "images/pulpa-de-guayaba.png"
+    },
+    {
+        "name" : "pulpa de maracuya",
+        "category" : "frutas",
+        "price": "1900",
+        "imgSrc": "images/pulpa-de-maracuya.png"
+    },
+    {
+        "name" : "pulpa de papaya",
+        "category" : "frutas",
+        "price": "1800",
+        "imgSrc": "images/pulpa-de-papaya.png"
+    },
+    {
+        "name" : "acelga",
+        "category" : "verduras",
+        "price": "600",
+        "imgSrc": "images/acelga.jpg"
+    },
+    {
+        "name" : "arveja",
+        "category" : "verduras",
+        "price": "450",
+        "imgSrc": "images/arveja-congeladas.jpg"
+    },
+    {
+        "name" : "batata zanahoria",
+        "category" : "verduras",
+        "price": "500",
+        "imgSrc": "images/batata-zanahoria.jpg"
+    },
+    {
+        "name" : "brocoli",
+        "category" : "verduras",
+        "price": "530",
+        "imgSrc": "images/brocoli-congelado.jpg"
+    },
+    {
+        "name" : "cebolla de verdeo",
+        "category" : "verduras",
+        "price": "475",
+        "imgSrc": "images/cebolla-de-verdeo.jpg"
+    },
+    {
+        "name" : "espinaca",
+        "category" : "verduras",
+        "price": "600",
+        "imgSrc": "images/espinaca-congelada.jpg"
+    },
+    {
+        "name" : "palta",
+        "category" : "verduras",
+        "price": "250",
+        "imgSrc": "images/palta.png"
+    },
+    {
+        "name" : "papas",
+        "category" : "verduras",
+        "price": "750",
+        "imgSrc": "images/papas.jpg"
+    },
+    {
+        "name" : "puerro",
+        "category" : "verduras",
+        "price": "625",
+        "imgSrc": "images/puerro.jpg"
+    },
+    {
+        "name" : "zanahoria",
+        "category" : "verduras",
+        "price": "785",
+        "imgSrc": "images/zanahoria-cubeteada.jpg"
+    },
+    {
+        "name" : "zapallo kabutia",
+        "category" : "verduras",
+        "price": "860",
+        "imgSrc": "images/zapallo-kabutia.jpg"
+    },
+    {
+        "name" : "aceitunas verdes",
+        "category" : "almacén",
+        "price": "800",
+        "imgSrc": "images/aceitunas-verdes.png"
+    },
+    {
+        "name" : "almendra",
+        "category" : "almacén",
+        "price": "2000",
+        "imgSrc": "images/almendra.jpg"
+    },
+    {
+        "name" : "arroz blanco",
+        "category" : "almacén",
+        "price": "350",
+        "imgSrc": "images/arroz-blanco"
+    },
+    {
+        "name" : "azucar mascabo",
+        "category" : "almacén",
+        "price": "270",
+        "imgSrc": "images/azucar-mascabo.jpg"
+    },
+    {
+        "name" : "barra de cereal",
+        "category" : "almacén",
+        "price": "120",
+        "imgSrc": "images/barras-de-cereal.jpg"
+    },
+    {
+        "name" : "cacao",
+        "category" : "almacén",
+        "price": "550",
+        "imgSrc": "images/cacao.jpg"
+    },
+    {
+        "name" : "canela en rama",
+        "category" : "almacén",
+        "price": "690",
+        "imgSrc": "images/canela-en-rama.png"
+    },
+    {
+        "name" : "castaña de caju",
+        "category" : "almacén",
+        "price": "1300",
+        "imgSrc": "images/castana-de-caju.jpg"
+    },
+    {
+        "name" : "crakers",
+        "category" : "almacén",
+        "price": "400",
+        "imgSrc": "images/crakers.png"
+    },
+    {
+        "name" : "galleta de arroz",
+        "category" : "almacén",
+        "price": "300",
+        "imgSrc": "images/galleta-de-arroz.jpg"
+    },
+    {
+        "name" : "pochoclo",
+        "category" : "almacén",
+        "price": "500",
+        "imgSrc": "images/pochoclo.png"
+    },
+    {
+        "name" : "sal rosada",
+        "category" : "almacén",
+        "price": "700",
+        "imgSrc": "images/sal-rosada.jpg"
+    },
+    {
+        "name" : "salsa barbacoa",
+        "category" : "almacén",
+        "price": "800",
+        "imgSrc": "images/salsa-barbacoa.jpg"
+    },
+    {
+        "name" : "tostadas de arroz",
+        "category" : "almacén",
+        "price": "350",
+        "imgSrc": "images/tostadas-de-arroz.png"
+    },
+    {
+        "name" : "vinagre blanco",
+        "category" : "almacén",
+        "price": "300",
+        "imgSrc": "images/vinagre-blanco.jpg"
+    },
+    {
+        "name" : "waffle",
+        "category" : "almacén",
+        "price": "930",
+        "imgSrc": "images/waffle.jpg"
+    }
+
+
+]
