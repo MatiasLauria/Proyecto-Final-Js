@@ -33,8 +33,10 @@ function eventListeners() {
         .addEventListener('click', () => {
             cartContainer.classList.toggle('show-cart-container');
         });
-
+    // agregar al carrito
     productList.addEventListener('click', purchaseProduct);
+    // borrar del carrito
+    cartList.addEventListener('click', deleteProduct);
 }
 
 // actualizar info de carrito
@@ -46,7 +48,7 @@ function updateCartInfo() {
     cartTotalValue.textContent = cartInfo.total;
 }
 
-updateCartInfo();
+
 
 // cargar los productos del json
 
@@ -99,7 +101,7 @@ function getProductInfo(product) {
         price: product.querySelector('.product-price').textContent
     }
 
-    cartItemID++;
+    cartItemID++; // incrementa de a 1 el ID
     //console.log(productInfo);
     addToCartList(productInfo);
     saveProductInstorage(productInfo);
@@ -155,6 +157,8 @@ function loadCart() {
         // si hay, toma el id del ultimo producto y lo incrementa de a 1
     }
     products.forEach(product => addToCartList(product));
+
+    updateCartInfo();
 }
 
 // Calculo del precio total del carrito
@@ -165,12 +169,39 @@ function findCartInfo() {
         let price = parseFloat(product.price.substr(1)); //quito el signo pesos
         return acc += price;
     }, 0) // se agregan todos los precios
-    
+
     //console.log(total);
 
-    return{
+    return {
         total: total.toFixed(2),
-        productCount: products.length
+        productCount: products.length 
     }
 }
 
+// borrar producto del carrito y del local storage
+
+function deleteProduct(e) {
+    let cartItem;
+    if (e.target.tagName === "BUTTON") {
+        cartItem = e.target.parentElement;
+        cartItem.remove(); // solo elimina del DOM
+    } else if (e.target.tagName === "I") {
+        cartItem = e.target.parentElement.parentElement;
+        cartItem.remove(); // solo elimina del DOM
+    }
+    //console.log(cartItem);
+
+    let products = getProductFromStorage();
+    let updatedProducts = products.filter(product => {
+        return product.id != parseInt(cartItem.dataset.id);
+    });
+    //console.log(products);
+    //console.log(updatedProducts);
+    localStorage.setItem('products', JSON.stringify(updatedProducts)); // actualiza el listado de productos luego de eliminar
+
+    updateCartInfo();
+
+
+
+
+}

@@ -193,6 +193,7 @@ header .container {
     right: 15px;
     top: 15px;
     padding: 0.05rem 0.45rem;
+    font-size: 1.4rem;
     background: purple;
     border: none;
     color: #fff;
