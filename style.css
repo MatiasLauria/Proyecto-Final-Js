@@ -151,7 +151,7 @@ header .container {
     overflow-y: scroll;
     background: #fff;
     width: 100%;
-    height: 600px;
+    height: 500px;
     top: 100%;
     left: 0;
     right: 0;
@@ -253,6 +253,16 @@ header .container {
     margin: 1.5rem 0;
 }
 
+.btns .btn a {
+
+    color: white;
+}
+
+.btns .btn:hover {
+    background: palevioletred;
+}
+
+
 .btn {
     font-size: 1rem;
     text-transform: uppercase;
@@ -268,20 +278,7 @@ header .container {
     transition: 0.5s;
 }
 
-.btns .btn:last-child {
-    color: purple;
-    background: transparent;
-}
 
-.btns .btn:first-child:hover {
-    background: transparent;
-    color: purple;
-}
-
-.btns .btn:last-child:hover {
-    background: purple;
-    color: white;
-}
 
 
 /* Productos */
@@ -396,6 +393,13 @@ footer>.container {
     justify-content: center;
 }
 
+footer .contact-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
 .social-icons {
     display: flex;
     padding: 3rem 0;
@@ -473,7 +477,7 @@ footer>.container {
         right: 14rem;
     }
 
-    .banner{
+    .banner {
         padding-top: 6rem;
     }
 

@@ -232,6 +232,12 @@
         "category" : "almacén",
         "price": "930",
         "imgSrc": "images/waffle.jpg"
+    },
+    {
+        "name" : "aceitunas verdes",
+        "category" : "almacén",
+        "price": "800",
+        "imgSrc": "images/aceitunas-verdes.png"
     }
 
 
